@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="KobernykMykhailo.TaskPlanner.Domain.Logic">
+			<HintPath>..\..\KobernykMykhailo.TaskPlanner.Domain.Logic\KobernykMykhailo.TaskPlanner.Domain.Logic\obj\Debug\net6.0\KobernykMykhailo.TaskPlanner.Domain.Logic.dll</HintPath>
+		</Reference>
+		<Reference Include="KobernykMykhailo.TaskPlanner.Domain.Models">
+			<HintPath>..\..\KobernykMykhailo.TaskPlanner.Domain.Models\KobernykMykhailo.TaskPlanner.Domain.Models\obj\Debug\net6.0\KobernykMykhailo.TaskPlanner.Domain.Models.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>
